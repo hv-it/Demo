@@ -1,9 +1,12 @@
+
 # Demo
 Demo project
 Dit zijn de eerste aanpassing aan het readme.md bestand
 Deze staat in de readme-edit branche
 
 -------------- Even wat extra test data --------------------------------
+------Tweede Branch: Verwijder demo2 -----------------------------------
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -13,8 +16,6 @@ Deze staat in de readme-edit branche
 <button onclick="myFunction()">Druk knop voor de datum</button>
 
 <p id="demo"></p>
-<p id="demo2"></p>
-
 
 <script>
 function myFunction() {
@@ -25,10 +26,7 @@ function myFunction() {
     
     document.getElementById("demo").innerHTML =dag+"-"+maand+"-" + jaar;
 
-	dag = dag+1
-  	document.getElementById("demo2").innerHTML =dag+"-"+maand+"-" + jaar;
-
-
+	
 }
 </script>
 
